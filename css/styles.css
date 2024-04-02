@@ -17,7 +17,6 @@ ul {
     list-style: none;
     margin-top: 0;
     margin-bottom: 0;
-    padding-left: 0;
 }
 button {
     cursor: pointer;
@@ -29,7 +28,6 @@ address {
 img {
     display: block;
     max-width: 100%;
-    height: auto;
 }
 
 body {
@@ -48,8 +46,6 @@ body {
 
 
 
-
-
 .header {
 }
 
@@ -57,12 +53,13 @@ body {
 }
 
 .logo {
-    font-family: "Raleway", sans-serif
-    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
-    line-height: 1.17
-    letter-spacing: 0.03em;
+    font-weight: 700;
+    line-height: 1.17;
+    text-align: left;
     text-transform: uppercase;
+    letter-spacing: 0.03em;
     color: #4d5ae5;
 }
 
@@ -123,7 +120,7 @@ body {
 
 
 .hero {
-    border-color: #2e2f42;
+    background-color: #2e2f42;
 }
 
 .hero-title {
@@ -133,7 +130,6 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    background-color: #2e2f42;
 }
 
 .hero-button {
@@ -190,7 +186,7 @@ body {
 
 
 .section-second {
-    background-color: #2e2f42;
+    background-color: #f4f4fd;
 }
 
 .section-second-title {
@@ -276,6 +272,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
 }
 
 
@@ -293,6 +290,22 @@ body {
 .footer {
     background-color: #2e2f42;
 }
+
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: #4d5ae5;
+}
+
+.footer-logo-accent {
+    color: #f4f4fd;
+}
+
 
 .footer-text {
     font-size: 16px;
