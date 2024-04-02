@@ -263,12 +263,14 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    text-align: center;
     color: #2e2f42;
 }
 
 .portfolio-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
     color: #434455;
 }
 
