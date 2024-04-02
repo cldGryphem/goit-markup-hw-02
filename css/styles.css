@@ -26,7 +26,6 @@ address {
 }
 
 img {
-    display: block;
     max-width: 100%;
 }
 
@@ -57,7 +56,6 @@ body {
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
-    text-align: left;
     text-transform: uppercase;
     letter-spacing: 0.03em;
     color: #4d5ae5;
@@ -81,11 +79,11 @@ body {
     color: #2e2f42;
 }
 
-.header-menu-link:hover,
-.header-menu-link:focus,
-.header-menu-link:active,
-.header-address-link:hover,
-.header-address-link:focus {
+.header-item-link:hover,
+.header-item-link:focus,
+.header-item-link:active,
+.header-contacts-item:hover,
+.header-contacts-item:focus {
     color: #404bbf;
 }
 
@@ -142,6 +140,10 @@ body {
     cursor: pointer;
 }
 
+.hero-button:hover, 
+.hero-button:focus {
+    background-color: #404BBF
+}
 
 
 
@@ -190,13 +192,11 @@ body {
 }
 
 .section-second-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #2e2f42;
-    text-transform: capitalize;
 }
 
 .section-list {
@@ -214,7 +214,6 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #2e2f42;
 }
 
@@ -222,7 +221,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: center;
+    color: #434455;
 }
 
 
@@ -239,13 +238,11 @@ body {
 
 
 .portfolio-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #2e2f42;
-    text-transform: capitalize;
 }
 
 .section-third {
@@ -296,7 +293,6 @@ body {
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
-    text-align: left;
     text-transform: uppercase;
     letter-spacing: 0.03em;
     color: #4d5ae5;
